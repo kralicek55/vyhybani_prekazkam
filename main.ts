@@ -9,7 +9,6 @@ basic.pause(1000)
 basic.forever(function () {
     if (muze_jet == 1) {
         vzdalenost = cuteBot.ultrasonic(cuteBot.SonarUnit.Centimeters)
-        basic.showString("" + (vzdalenost))
         if (vzdalenost >= 0 && vzdalenost < 20) {
             cuteBot.motors(0, 0)
             for (let index = 0; index < 4; index++) {
