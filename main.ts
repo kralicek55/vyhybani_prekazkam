@@ -6,7 +6,6 @@ let muze_jet = 0
 muze_jet = 0
 basic.showIcon(IconNames.Snake)
 basic.pause(1000)
-cuteBot.motors(50, 50)
 basic.forever(function () {
     if (muze_jet == 1) {
         vzdalenost = cuteBot.ultrasonic(cuteBot.SonarUnit.Centimeters)
