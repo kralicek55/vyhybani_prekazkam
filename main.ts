@@ -3,6 +3,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 })
 let vzdalenost = 0
 let muze_jet = 0
+cuteBot.stopcar()
 muze_jet = 0
 basic.showIcon(IconNames.Snake)
 basic.pause(1000)
